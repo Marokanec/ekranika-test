@@ -558,12 +558,14 @@ li.submenu-column {
             box-shadow: -10px -10px 30px rgba(35, 33, 58, 0.35), 10px 10px 30px rgba(4, 5, 14, 0.55), inset -5px -6px 20px rgba(35, 33, 58, 0.3), inset 5px 6px 20px rgba(0, 2, 12, 0.5);
     border-radius: 24px;
     border: none;
+    box-sizing: border-box;
     color: #80758F;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     line-height: 1.4;
     letter-spacing: 0.5px;
     padding: 23px 92px;
+    width: 625px;
 }
 
 .name-icon,
