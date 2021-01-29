@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Доставка и оплата</title>
+    <meta name="description" content="Страница доставки и оплаты">
+</head>
+
+<body>
+
+    <header>
+        <div class="main-header wrap">
+            <nav>
+                <a href="#" class="logo"><img src="/img/ekranika-logo-3.png" alt="Логотип"></a>
+                <ul class="menu">
+                    <li><a href="#" class="dropdown">Предложения
+                            <svg width="12" height="6" viewBox="0 0 12 6" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.42857 0.600098L6 5.4001L10.5714 0.600098" stroke="#D9D9D9"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <ul class="submenu">
+                            <li class="submenu-column">
+                                <p class="submenu-title">Продукция на заказ</p>
+                                <ul>
+                                    <li><a href="#">Светодиодный экран</a></li>
+                                    <li><a href="#">Бегущая строка</a></li>
+                                    <li><a href="#">Электронное табло</a></li>
+                                    <li><a href="#">Медиаборт</a></li>
+                                    <li><a href="#">Светодиодный шар</a></li>
+                                    <li><a href="#">Видеокуб</a></li>
+                                    <li><a href="#">Рекламный медиабаннер</a></li>
+                                    <li><a href="#">Медиафасад</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu-column">
+                                <p class="submenu-title">Готовые решения</p>
+                                <ul>
+                                    <li><a href="#">Экраны для ТЦ и БЦ</a></li>
+                                    <li><a href="#">Экраны для спортивных мероприятий</a></li>
+                                    <li><a href="#">Экраны для конференций</a></li>
+                                    <li><a href="#">Рекламные уличные экраны</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu-column">
+                                <p class="submenu-title">Услуги</p>
+                                <ul>
+                                    <li><a href="#">Аренда под ключ</a></li>
+                                    <li><a href="#">Монтаж светодиодных экранов</a></li>
+                                    <li><a href="#">Проектирование</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Наши работы</a></li>
+                    <li><a href="#">Оплата и доставка</a></li>
+                    <li><a href="#">База знаний</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="flex">
+                <div class="calc-btn">
+                    <a href="#coast" class=""><img src="/img/Vector.png" alt="Калькулятор"></a>
+                </div>
+                <button class="main-btn">Оформить заявку</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 class="hidden">Доставка и оплата</h1>
+        <div class="shadow wrap delivery">
+            <div class="inner-wrap flex">
+                <div class="content-box-left">
+                    <h2 class="heading60">Доставка</h2>
+                    <p class="primary-text">После оформления и оплаты заказа он передается на доставку. Сроки и способ
+                        доставки зависит от того, что конкретно нужно доставить. Выберите тип конструкции, чтобы узнать
+                        подробнее о сбособах его доставки</p>
+                </div>
+                <div class="content-box-right">
+                    <h2 class="primary-text">Способы доставки</h2>
+                    <div class="tab">
+                        <div class="secondary-text">Конструкция</div>
+                        <!-- Tab links-->
+                        <div class="tab-menu">
+                            <button class="tablinks" onclick="openTab(event, 'Ram')">Рамно-монолитная</button>
+                            <button class="tablinks" onclick="openTab(event, 'Cabinet')"
+                                id="defaultOpen">Кабинет</button>
+                            <button class="tablinks" onclick="openTab(event, 'Trasport')">Транспортный кофр</button>
+                        </div>
+                    </div>
+                    <!-- Tab content -->
+                    <div id="Ram" class="tabcontent secondary-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <div id="Cabinet" class="tabcontent secondary-text">
+                        <p>Кабинеты — большие сборные элементы, каждый из которых упакован индивидуально. Конструкция
+                            кабинета защищена от повреждений, а упаковка позволит избежать попадания грязи и пыли.</p>
+                    </div>
+
+                    <div id="Trasport" class="tabcontent secondary-text">
+                        <p>Транспортный кофр понадобится, если в дальнейшем планируется перевозка экрана с объекта на
+                            объект.<br>
+                            Его мы не предоставляем в аренду, возможна только покупка целиком</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow wrap payment">
+            <div class="inner-wrap flex">
+                <div class="content-box-left">
+                    <h2 class="heading60">Схема оплаты</h2>
+                    <p class="primary-text">После согласования всех деталей с клиентом заключается договор. Далее
+                        необходимо
+                        внести предоплату, после чего сотрудники нашей компании приступают к изготовлению проекта с
+                        учетом
+                        индивидуальных особенностей и потребностей вашего заказа</p>
+                    <a href="#" class="primary-text download">Скачать реквизиты</a>
+                    <p class="secondary-text ">Плательщикам НДС просьба заблаговременно подготовить копию свидетельства
+                        налогоплательщика</p>
+                </div>
+                <div class="content-box-right calc-box">
+                    <p class="primary-text">Калькулятор рассрочки</p>
+                    <div class="calc-input">
+                        <p>Стоимость оборудования</p>
+                        <div class="rub">
+                            <input type="text" placeholder="Стоимость" name="coast" id="coast">
+                        </div>
+                    </div>
+                    <div class="calc-input">
+                        <p>Срок рассрочки</p>
+                        <div class="month">
+                            <select name="installment" id="installment">
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option selected value="24">24</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="calc-input">
+                        <p>Первый платеж</p>
+                        <div class="procent">
+                            <select name="first-payment" id="first-payment">
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option selected value="30">30</option>
+                                <option value="40">40</option>
+                                <option value="50">50</option>
+                                <option value="60">60</option>
+                                <option value="70">70</option>
+                                <option value="80">80</option>
+                                <option value="90">90</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="second-btn" onclick="calc()">Рассчитать</button>
+                    <div class="border"></div>
+                    <div class="calc-result">
+                        <p>Итого к оплате — &nbsp;</p>
+                        <p id="result"> </p>
+                    </div>
+                    <div class="secondary-text flex">
+                        <p>Переплата за &nbsp;</p>
+                        <p id="result2"></p>
+                    </div>
+                    <p id="result3" class="secondary-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="form inner-wrap">
+            <h2 class="heading60">Поможем подобрать оборудование</h2>
+            <div class="flex">
+                <div class="form-input">
+                    <label for="name" class="secondary-text">Как вас зовут?</label>
+                    <div class="name-icon">
+                        <input type="text" id="name" placeholder="Константин Фролов">
+                    </div>
+                    <label for="phone" class="secondary-text">Номер телефона</label>
+                    <div class="phone-icon">
+                        <input type="text" id="phone" placeholder="+7 9XX-XXX-XX-XX">
+                    </div>
+                </div>
+                <div class="form-comment">
+                    <label for="comment" class="secondary-text">Коментарий</label>
+                    <div class="messege-icon">
+                        <textarea name="comment" id="comment" cols="33" rows="6"
+                            placeholder="Напишите что-нибудь"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="form-text">
+                <p>Перезвоним в ближайшее время и расскажем обо всех особенностях реализации проектов. Рассчитаем
+                    смету и объясним алгорим работы</p>
+                <div class="flex">
+                    <input type="checkbox" checked id="personal-data">
+                    <label for="personal-data">Отправляя запрос, я соглашаюсь на обработку моих <a href="#">персональных
+                            данных</a></label>
+                    <button type="submit" class="second-btn">Следующий вопрос</button>
+                </div>
+            </div>
+        </div>
+        <div class="border"></div>
+        <footer>
+            <div class="wrap footer">
+                <div class="flex footer-menu">
+                    <div class="flex">
+                        <img src="/img/ekranika-logo-footer.png" class="logo" alt="Логотип">
+                        <div>
+                            <ul>
+                                <li><a href="#">Продукция на заказ</a></li>
+                                <li><a href="#">Готовые решения</a></li>
+                                <li><a href="#">Услуги</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="#">Портфолио</a></li>
+                                <li><a href="#">База знаний</a></li>
+                                <li><a href="#">Прошивки</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="#">Сертификаты</a></li>
+                                <li><a href="#">Оплата</a></li>
+                                <li><a href="#">Гарантии</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Калькулятор</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="tel:+74999388779" class="heading30">+7 499 938 87 79</a>
+                        <div class="footer-icon">
+                            <div class="footer-icon-btn">
+                                <div>
+                                    <a href="#"><img src="img/facebook-icon.png" alt="Иконка Фэйсбук"></a>
+                                </div>
+
+                            </div>
+                            <div class="footer-icon-btn">
+                                <div>
+                                    <a href="#"><img src="img/instagram-icon.png" alt="Иконка Инстаграм"></a>
+                                </div>
+                            </div>
+                            <div class="footer-icon-btn">
+                                <div>
+                                    <a href="#"><img src="img/youtube-icon.png" alt="Иконка Ютуб"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex footer-copyright">
+                    <p>Любое использование, либо копирование материалов или подборки материалов сайта, элементов дизайна
+                        и оформления может осуществляться лишь с разрешения автора</p>
+                    <p>2019-2020 ООО “Экраника”</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
