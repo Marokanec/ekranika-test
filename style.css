@@ -362,7 +362,7 @@ li.submenu-column {
 
 .download::before {
     content: "";
-    background: url("/img/download.png") no-repeat;
+    background: url("img/download.png") no-repeat;
     background-size: contain;
     width: 18px;
     height: 18px;
@@ -574,7 +574,7 @@ li.submenu-column {
 
 .name-icon::before {
     content: "";
-    background: url("/img/name-icon.png") no-repeat;
+    background: url("img/name-icon.png") no-repeat;
     background-size: contain;
     background-position: center;
     position: absolute;
@@ -586,7 +586,7 @@ li.submenu-column {
 
 .phone-icon::before {
     content: "";
-    background: url("/img/phone-icon.png") no-repeat;
+    background: url("img/phone-icon.png") no-repeat;
     background-size: contain;
     background-position: center;
     position: absolute;
@@ -598,7 +598,7 @@ li.submenu-column {
 
 .messege-icon::before {
     content: "";
-    background: url("/img/messege-icon.png") no-repeat;
+    background: url("img/messege-icon.png") no-repeat;
     background-size: contain;
     background-position: center;
     position: absolute;
